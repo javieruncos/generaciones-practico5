@@ -1,0 +1,40 @@
+body{
+    background-color: darkviolet;
+}
+
+
+
+li{
+    color: white;
+    list-style: none;
+    
+}
+
+
+
+
+h5{
+    color: yellow;
+}
+
+
+
+
+@media all and (max-width:540px){
+    li{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-familia{
+        display: none;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+      margin-left: 50px;
+      width: 350px;
+    }
+}
