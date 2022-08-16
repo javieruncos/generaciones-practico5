@@ -33,7 +33,9 @@ class Persona {
             sectionPadre.appendChild(parrafo)
             generacion.style.marginTop = "40px"
             generacion.style.textAlign = "center"
-            generacion.style.fontSize = "60px"        
+            generacion.style.fontSize = "60px"   
+            generacion.style.background="black"
+                 
 
             switch(true){
               case persona.fechaNacimiento >= 1994 && persona.fechaNacimiento <= 2010:
